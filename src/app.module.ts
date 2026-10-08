@@ -5,6 +5,7 @@ import { SupabaseModule } from './supabase/supabase.module';
 import { ResendModule } from './resend/resend.module';
 
 import { AuthModule } from './auth/auth.module';
+import { SongsModule } from './songs/songs.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { AuthModule } from './auth/auth.module';
     SupabaseModule,
     ResendModule,
     AuthModule,
+    SongsModule,
   ],
 })
 export class AppModule {}

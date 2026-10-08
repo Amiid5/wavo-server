@@ -14,6 +14,6 @@ async function bootstrap() {
     }),
   );
   app.enableShutdownHooks();
-  await app.listen(PORT);
+  await app.listen(PORT, '0.0.0.0');
 }
 bootstrap();
